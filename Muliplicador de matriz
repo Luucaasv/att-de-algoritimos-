@@ -1,0 +1,29 @@
+Algoritmo "Muliplicador de matriz"
+
+Var
+val1,val2 : vetor[1..4,1..4] de inteiro
+l,c : inteiro
+x : inteiro
+Inicio
+para l de 1 ate 4 faca
+     para c de 1 ate 4 faca
+     escreval("Informe o valor da matriz 1")
+     leia(val1[l,c])
+     fimpara
+     fimpara
+     escreval("Informe um numero para multiplicar a matriz")
+     leia(x)
+para l de 1 ate 4 faca
+     para c de 1 ate 4 faca
+     val2[l,c]  <- val1[l,c] * x
+fimpara
+fimpara
+para l de 1 ate 4 faca
+     para c de 1 ate 4 faca
+     escreva(val2[l,c])
+     fimpara
+escreval()
+fimpara
+
+
+Fimalgoritmo
