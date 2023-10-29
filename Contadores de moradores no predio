@@ -1,0 +1,17 @@
+Algoritmo "Contadores de moradores no predio"
+
+Var
+met : vetor[1..4,1..6] de inteiro
+l, c  , ic : inteiro
+Inicio
+para l de 1 ate 4 faca
+     para c de 1 ate 6 faca
+          escreval("Informe a quantidade de moradores no andar", l, " e apartamento",c)
+          leia(met[l,c])
+     ic <- met[l,c] + ic
+     fimpara
+     fimpara
+escreval("O predio tem", ic, " moradores")
+
+
+Fimalgoritmo
