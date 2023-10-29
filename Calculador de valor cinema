@@ -1,0 +1,20 @@
+Algoritmo "Calculador de valor cinema"
+
+Var
+val : vetor[1..15,1..10] de inteiro
+l,c : inteiro
+x : inteiro
+Inicio
+para l de 1 ate 15 faca
+     para c de 1 ate 10 faca
+     val[l,c] <- randi(3)
+     se val[l,c] = 2 entao
+     x <- x + 6
+     fimse
+     se val[l,c] = 1 entao
+     x <- x + 12
+     fimse
+     fimpara
+     fimpara
+escreval("O valor total foi:", x)
+Fimalgoritmo
